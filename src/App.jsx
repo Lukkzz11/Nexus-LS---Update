@@ -11,7 +11,7 @@ import { db } from './firebase';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('updates');
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [versions, setVersions] = useState(DEFAULT_VERSIONS);
   const [loading, setLoading] = useState(true);
   const [dbConnected, setDbConnected] = useState(false);
